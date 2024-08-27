@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Forecast</title>
+</head>
+<body>
+    <h1>Sales Forecasting</h1>
+    <form action="/forecast" method="POST">
+        <label for="steps">Enter the number of days to forecast:</label>
+        <input type="number" id="steps" name="steps" min="1" required>
+        <button type="submit">Forecast</button>
+    </form>
+</body>
+</html>
